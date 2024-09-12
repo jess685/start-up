@@ -1,8 +1,9 @@
 # start-up
-## elevator pitch
-## Design
-## Key Features
-## Technologies
+## Specification Deliverable
+### elevator pitch
+### Design
+### Key Features
+### Technologies
 ## HTML - Uses correct HTML structure for application. Two HTML pages. One for login and one for voting. Hyperlinks to choice artifact.
 ## CSS - Application styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.
 ## JavaScript - Provides login, choice display, applying votes, display other users votes, backend endpoint calls.
