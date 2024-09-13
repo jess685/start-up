@@ -1,4 +1,4 @@
-###GitHub
+### GitHub
 Git provides two things, 1) Version tracking in a repository, and 2) the ability to clone a copy of the repository to a different location.
 
 GitHub is going to be used for three things:
