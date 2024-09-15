@@ -70,16 +70,16 @@ Backend service endpoints - Placeholders for login that stores the current user 
   
 ## DB/Login
 Store users, user's choices, and results in database. Register and login users. Credentials securely stored in database. Can't take quiz unless authenticated.  
-   For this deliverable I associate the results with the logged in user. I stored the results in the database.  
-   User registration - Creates a new account in the database.  
-   Existing user - Stores the results under the same user if the user already exists.  
-   Use MongoDB to store credentials - Stores both user and their results.  
-   Restricts functionality - You cannot take the quiz until you have logged in.   
+      For this deliverable I associate the results with the logged in user. I stored the results in the database.  
+      User registration - Creates a new account in the database.  
+      Existing user - Stores the results under the same user if the user already exists.  
+      Use MongoDB to store credentials - Stores both user and their results.  
+      Restricts functionality - You cannot take the quiz until you have logged in.   
    
 ## WebSocket
 As each user takes the quiz, their results are broadcast to all other users.  
-   For this deliverable I used webSocket to update the results on the frontend in realtime.  
-   Backend listens for WebSocket connection.  
-   Frontend makes WebSocket connection.  
-   Data sent over WebSocket connection.  
-   WebSocket data displayed - Recent user results display in realtime.  
+      For this deliverable I used webSocket to update the results on the frontend in realtime.  
+      Backend listens for WebSocket connection.  
+      Frontend makes WebSocket connection.  
+      Data sent over WebSocket connection.  
+      WebSocket data displayed - Recent user results display in realtime.  
