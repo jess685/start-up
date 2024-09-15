@@ -20,16 +20,16 @@ If you don't agree with your results, just take the quiz again! Because the real
 ### Technologies
 I am going to use the required technologies in the following ways.
 
-HTML - Uses correct HTML structure for application. Two HTML pages. One for login and one for the quiz. Hyperlinks to choice artifact.
+HTML - Uses correct HTML structure for application. Three HTML pages. One for login, one for the quiz, and one for results. 
 CSS - Application styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.
-JavaScript - Provides login, choice display, applying scores, display other users results, backend endpoint calls.
-React - Provides login, question display, choice display, applying score, display other users results, and use of React for routing and components.
-Service - Backend service with endpoints for:
+JavaScript - Provides login, calculating princess match scores, backend endpoint calls.
+React - Provides login form, question and choice display, display other users results.
+Service - Backend service supports the following:
 - login
 - retrieving choices
 - submitting scores
 - retrieving results
-DB/Login - Store users, choices, and results in database. Register and login users. Credentials securely stored in database. Can't take quiz unless authenticated.
+DB/Login - Store users, user's choices, and results in database. Register and login users. Credentials securely stored in database. Can't take quiz unless authenticated.
 WebSocket - As each user takes the quiz, their results are broadcast to all other users.
 
 ## HTML
@@ -79,6 +79,7 @@ Backend service with endpoints for:
    Calls to third party endpoints - I didn't have time to implement this. 
    Backend service endpoints - Placeholders for login that stores the current user on the server. Endpoints for voting.
    Frontend calls service endpoints - I did this using the fetch function.
+  
 ## DB/Login
 Store users, choices, and results in database. Register and login users. Credentials securely stored in database. Can't take quiz unless authenticated.
   For this deliverable I associate the votes with the logged in user. I stored the votes in the database.
@@ -88,6 +89,7 @@ Store users, choices, and results in database. Register and login users. Credent
    existing user - Stores the votes under the same user if the user already exists.
    Use MongoDB to store credentials - Stores both user and their votes.
    Restricts functionality - You cannot vote until you have logged in. This is restricted on the frontend only. 
+   
 ## WebSocket
 As each user votes, their votes are broadcast to all other users.
   For this deliverable I used webSocket to update the votes on the frontend in realtime.
