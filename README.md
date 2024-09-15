@@ -27,11 +27,7 @@ HTML - Uses correct HTML structure for application. Three HTML pages. One for lo
 CSS - Application styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.  
 JavaScript - Provides login, calculating princess match scores, backend endpoint calls.  
 React - Provides login form, question and choice display, display other users results.  
-Service - Backend service supports the following:
-- login
-- retrieving choices
-- submitting scores
-- retrieving results   
+Service - Backend service supports the following: login, retrieving choices, submitting scores, retrieving results   
 DB/Login - Store users, user's choices, and results in database. Register and login users. Credentials securely stored in database. Can't take quiz unless authenticated.  
 WebSocket - As each user takes the quiz, their results are broadcast to all other users.   
 
