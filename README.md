@@ -84,4 +84,4 @@ As each user takes the quiz, their results are broadcast to all other users.
    Backend listens for WebSocket connection 
    Frontend makes WebSocket connection 
    Data sent over WebSocket connection 
-   WebSocket data displayed - Recent user votes display in realtime.
+   WebSocket data displayed - Recent user results display in realtime.
