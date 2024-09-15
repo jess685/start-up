@@ -22,8 +22,7 @@ Results as following
 - Results are persistently stored
 
 ### Technologies
-I am going to use the required technologies in the following ways.
-
+I am going to use the required technologies in the following ways.   
 HTML - Uses correct HTML structure for application. Three HTML pages. One for login, one for the quiz, and one for results.   
 CSS - Application styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.  
 JavaScript - Provides login, calculating princess match scores, backend endpoint calls.  
