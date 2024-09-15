@@ -37,10 +37,8 @@ WebSocket - As each user takes the quiz, their results are broadcast to all othe
 
 ## HTML
 Uses correct HTML structure for application. Three HTML pages. One for login, one for the quiz, and one for results. 
-   
    HTML pages - Three HTML page that represent the ability to login, take the quiz, and view results as well as other user's results.
-   
-   Links - The login page automatically links to the quiz page which in turn links to the results page
+   Links - The login page automatically links to the quiz page which in turn links to the results page.
    Text - Each of the choices for the questions and results is represented by a textual description.
    Images - An image of each princess will be linked to the result of the quiz. 
    DB/Login - Input box and submit button for login. The quiz results represent data pulled from the database.
@@ -49,11 +47,11 @@ Uses correct HTML structure for application. Three HTML pages. One for login, on
 ## CSS
 Application styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.
    For this deliverable I properly styled the application into its final appearance.
-   Header, footer, and main content body
+   Header, footer, and main content body.
    Navigation elements - I dropped the underlines and changed the color for anchor elements.
-   Responsive to window resizing - My app looks great on all window sizes and devices
-   Application elements - Used good contrast and whitespace
-   Application text content - Consistent fonts
+   Responsive to window resizing - My app looks great on all window sizes and devices.
+   Application elements - Used good contrast and whitespace.
+   Application text content - Consistent fonts.
    Application images - Images are linked to results. 
    
 ## React
@@ -63,7 +61,7 @@ Provides login, question and choice display, calculating princess match scores, 
    Login - When you press enter or the login button it takes you to the quiz page. 
    Database - Displayed the questions, choice, results, and other user's results.
    Application logic - The results will be calculated by the similarity between the user's score with the princesses scores.
-   Router - Routing between login and quiz components
+   Router - Routing between login and quiz components.
 
 ## Service
 Backend service with endpoints for:
@@ -85,7 +83,7 @@ Store users, user's choices, and results in database. Register and login users. 
 ## WebSocket
 As each user takes the quiz, their results are broadcast to all other users.
    For this deliverable I used webSocket to update the results on the frontend in realtime.
-   Backend listens for WebSocket connection 
-   Frontend makes WebSocket connection 
-   Data sent over WebSocket connection 
+   Backend listens for WebSocket connection.
+   Frontend makes WebSocket connection.
+   Data sent over WebSocket connection.
    WebSocket data displayed - Recent user results display in realtime.
