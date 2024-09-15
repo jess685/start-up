@@ -8,6 +8,7 @@ If you don't agree with your results, just take the quiz again! What truly defin
 ### Design
 <img width="782" alt="Screenshot 2024-09-14 at 6 02 23 PM" src="https://github.com/user-attachments/assets/944962aa-4f0c-4235-8e8c-78b61f489293">
 Results as following
+
 <img width="779" alt="Screenshot 2024-09-14 at 11 19 33 PM" src="https://github.com/user-attachments/assets/ad4f68a0-84a0-4a4d-860e-e9fed0365498">
 
 ### Key Features
