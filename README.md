@@ -34,67 +34,54 @@ DB/Login - Store users, user's choices, and results in database. Register and lo
 WebSocket - As each user takes the quiz, their results are broadcast to all other users.
 
 ## HTML
-Uses correct HTML structure for application. Two HTML pages. One for login and one for the quiz. Hyperlinks to choice artifact.
-  HTML pages - Two HTML page that represent the ability to login and vote.
-   Links - The login page automatically links to the voter page. The voter page contains links for every voting choice.
-   Text - Each of the voting choices is represented by a textual description.
-   Images - I couldn't figure out how to include an image and so I didn't do this. 
-   DB/Login - Input box and submit button for login. The voting choices represent data pulled from the database.
-   WebSocket - The count of voting results represent the tally of realtime votes.
+Uses correct HTML structure for application. Three HTML pages. One for login, one for the quiz, and one for results. 
+   HTML pages - Three HTML page that represent the ability to login, take the quiz, and view results as well as other user's results.
+   Links - The login page automatically links to the quiz page which in turn links to the results page
+   Text - Each of the choices for the questions and results is represented by a textual description.
+   Images - An image of each princess will be linked to the result of the quiz. 
+   DB/Login - Input box and submit button for login. The quiz results represent data pulled from the database.
+   WebSocket - The quiz results are represented to other users.
    
 ## CSS
 Application styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.
-  For this deliverable I properly styled the application into its final appearance.
+   For this deliverable I properly styled the application into its final appearance.
    Header, footer, and main content body
    Navigation elements - I dropped the underlines and changed the color for anchor elements.
    Responsive to window resizing - My app looks great on all window sizes and devices
    Application elements - Used good contrast and whitespace
    Application text content - Consistent fonts
-   Application images - Still don't have images and so no styling here. 
-   
-## JavaScript
-Provides login, choice display, applying scores, display other users results, backend endpoint calls.
-  For this deliverable I used JavaScript and React so that the application completely works for a single user. I also added placeholders for future technology.
-
-   Bundled and transpiled - done!
-   Components - Login, voting list, vote are all components with mocks for login, WebSocket.
-   login - When you press enter or the login button it takes you to the voting page.
-   database - Displayed the voting counts. Currently this is stored and retrieved from local storage, but it will be replaced with the database data later.
-   WebSocket - I used the setInterval function to periodically increase a random vote count. This will be replaced with WebSocket messages later.
-   application logic - The highlight and ranking number change based up the user's selections.
-   Router - Routing between login and voting components.
-   Hooks - Vue uses class properties instead of UseState to track changes in vote state.
+   Application images - Images are linked to results. 
    
 ## React
-Single page application with views componentized and reactive to user's actions.
+Provides login, question and choice display, calculating princess match scores, display other users results, backend endpoint calls.
+   For this deliverable I will use JavaScript and React so that the application completely works for a single user. 
+   Components - Login and calculating similarity scores.
+   Login - When you press enter or the login button it takes you to the quiz page. 
+   Database - Displayed the questions, choice, results, and other user's results.
+   Application logic - The results will be calculated by the similarity between the user's score with the princesses scores.
+   Router - Routing between login and quiz components
+
 ## Service
 Backend service with endpoints for:
 - login
 - retrieving choices
 - submitting scores
 - retrieving results
-
-    For this deliverable I added backend endpoints that receives votes and returns the voting totals.
-   Node.js/Express HTTP service - done!
-   Static middleware for frontend - done!
-   Calls to third party endpoints - I didn't have time to implement this. 
-   Backend service endpoints - Placeholders for login that stores the current user on the server. Endpoints for voting.
-   Frontend calls service endpoints - I did this using the fetch function.
+   For this deliverable I will add backend endpoints that receives scores and returns the results.
+   Backend service endpoints - Placeholders for login that stores the current user on the server. Endpoints for results.
   
 ## DB/Login
-Store users, choices, and results in database. Register and login users. Credentials securely stored in database. Can't take quiz unless authenticated.
-  For this deliverable I associate the votes with the logged in user. I stored the votes in the database.
-  MongoDB Atlas database created - done!
-   Stores data in MongoDB - done!
+Store users, user's choices, and results in database. Register and login users. Credentials securely stored in database. Can't take quiz unless authenticated.
+   For this deliverable I associate the results with the logged in user. I stored the results in the database.
    User registration - Creates a new account in the database.
-   existing user - Stores the votes under the same user if the user already exists.
+   Existing user - Stores the results under the same user if the user already exists.
    Use MongoDB to store credentials - Stores both user and their votes.
-   Restricts functionality - You cannot vote until you have logged in. This is restricted on the frontend only. 
+   Restricts functionality - You cannot take the quiz until you have logged in. 
    
 ## WebSocket
-As each user votes, their votes are broadcast to all other users.
-  For this deliverable I used webSocket to update the votes on the frontend in realtime.
-   Backend listens for WebSocket connection - done!
-   Frontend makes WebSocket connection - done!
-   Data sent over WebSocket connection - done!
-   WebSocket data displayed - All user votes display in realtime.
+As each user takes the quiz, their results are broadcast to all other users.
+   For this deliverable I used webSocket to update the results on the frontend in realtime.
+   Backend listens for WebSocket connection 
+   Frontend makes WebSocket connection 
+   Data sent over WebSocket connection 
+   WebSocket data displayed - Recent user votes display in realtime.
