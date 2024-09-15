@@ -65,12 +65,13 @@ Backend service with endpoints for:
 - retrieving choices
 - submitting scores
 - retrieving results  
+
 For this deliverable I will add backend endpoints that receives scores and returns the results.  
 Backend service endpoints - Placeholders for login that stores the current user on the server. Endpoints for results.  
   
 ## DB/Login
 Store users, user's choices, and results in database. Register and login users. Credentials securely stored in database. Can't take quiz unless authenticated.  
-   ☑️ For this deliverable I associate the results with the logged in user. I stored the results in the database.  
+   ☑ For this deliverable I associate the results with the logged in user. I stored the results in the database.  
    User registration - Creates a new account in the database.  
    Existing user - Stores the results under the same user if the user already exists.  
    Use MongoDB to store credentials - Stores both user and their results.  
