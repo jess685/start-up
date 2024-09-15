@@ -23,7 +23,6 @@ Results as following
 
 ### Technologies
 I am going to use the required technologies in the following ways.
-
 HTML - Uses correct HTML structure for application. Three HTML pages. One for login, one for the quiz, and one for results. 
 CSS - Application styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.
 JavaScript - Provides login, calculating princess match scores, backend endpoint calls.
@@ -38,7 +37,7 @@ WebSocket - As each user takes the quiz, their results are broadcast to all othe
 
 ## HTML
 Uses correct HTML structure for application. Three HTML pages. One for login, one for the quiz, and one for results. 
-   HTML pages - Three HTML page that represent the ability to login, take the quiz, and view results as well as other user's results.
+   :EMOJICODE::ballot_box_with_check: HTML pages - Three HTML page that represent the ability to login, take the quiz, and view results as well as other user's results.
    Links - The login page automatically links to the quiz page which in turn links to the results page
    Text - Each of the choices for the questions and results is represented by a textual description.
    Images - An image of each princess will be linked to the result of the quiz. 
