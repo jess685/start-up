@@ -3,7 +3,7 @@
 ### Elevator Pitch
 Have you ever had countless debates with friends, family, and even co-workers on the debilitating question of which Disney Princess truly represents you? It is now time to find out once and for all: which Disney Princess are you? Each user will be presented with a series of questions and can choose the answer that fits them best. The results will be automatically calculated and displayed at the end of the quiz. You are given the option to save and share your results with other users. I can guarentee your life will be permanently after this moment. Your Welcome. 
 
-If you still don't agree, just take the quiz again! Because the real mark of a princess is going after your own personal happily ever after.
+If you don't agree with your results, just take the quiz again! Because the real mark of a princess is going after your own personal happily ever after.
 
 ### Design
 <img width="782" alt="Screenshot 2024-09-14 at 6 02 23 PM" src="https://github.com/user-attachments/assets/944962aa-4f0c-4235-8e8c-78b61f489293">
@@ -13,7 +13,7 @@ If you still don't agree, just take the quiz again! Because the real mark of a p
 - Display of questions that determine result
 - Display of answers to choose from 
 - Ability to select, and change, choice for each question
-- Results from all users displayed in realtime
+- Results from most recent users displayed 
 - Ability for a user to save and share their results
 - Results are persistently stored
 
