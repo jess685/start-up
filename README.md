@@ -6,7 +6,7 @@ Have you ever had countless debates with friends, family, and even co-workers on
 If you still don't agree, just take the quiz again! Because the real mark of a princess is going after your own personal happily ever after.
 
 ### Design
-<img width="784" alt="Screenshot 2024-09-14 at 5 50 55 PM" src="https://github.com/user-attachments/assets/3c69bdd5-540e-43e7-9972-c7f1acd505b1">
+<img width="782" alt="Screenshot 2024-09-14 at 6 02 23 PM" src="https://github.com/user-attachments/assets/944962aa-4f0c-4235-8e8c-78b61f489293">
 
 ### Key Features
 - Secure login over HTTPS
