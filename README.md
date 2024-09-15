@@ -75,7 +75,7 @@ Store users, user's choices, and results in database. Register and login users. 
    For this deliverable I associate the results with the logged in user. I stored the results in the database.
    User registration - Creates a new account in the database.
    Existing user - Stores the results under the same user if the user already exists.
-   Use MongoDB to store credentials - Stores both user and their votes.
+   Use MongoDB to store credentials - Stores both user and their results.
    Restricts functionality - You cannot take the quiz until you have logged in. 
    
 ## WebSocket
