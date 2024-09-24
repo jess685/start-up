@@ -37,4 +37,5 @@ Domain Name = ssh -i ~/keys/cs260.pem ubuntu@princess
 - WebSocket - As each user takes the quiz, their results are broadcast to all other users.
 
 ###AWS - Route 53
-By defining both a record for your root domain and a wildcard record for any subdomain of your root domain you can now navigate to your server with either your domain name or a subdomain. I purchased the domain name princess260.click can could reach my server by navigating my browser to princess260.click, simon.princess260.click, or startup.princess260.click.
+- Now that you own a domain name you can use it to create DNS records that will map domain names to IP addresses (A records) or other domain names (CNAME records). For the purposes of this class, you want your root domain name, and any subdomain of your root domain, to map to the IP address of the web server you created previously.
+- By defining both a record for your root domain and a wildcard record for any subdomain of your root domain you can now navigate to your server with either your domain name or a subdomain. I purchased the domain name princess260.click can could reach my server by navigating my browser to princess260.click, simon.princess260.click, or startup.princess260.click.
