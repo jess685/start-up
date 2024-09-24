@@ -34,4 +34,7 @@ Domain Name = ssh -i ~/keys/cs260.pem ubuntu@princess
 - React - Provides login form, question and choice display, display other users results.  
 - Service - Backend service supports the following: login, retrieving choices, submitting scores, retrieving results   
 - DB/Login - Store users, user's choices, and results in database. Register and login users. Credentials securely stored in database. Can't take quiz unless authenticated.  
-- WebSocket - As each user takes the quiz, their results are broadcast to all other users.   
+- WebSocket - As each user takes the quiz, their results are broadcast to all other users.
+
+###AWS - Route 53
+By defining both a record for your root domain and a wildcard record for any subdomain of your root domain you can now navigate to your server with either your domain name or a subdomain. I purchased the domain name princess260.click can could reach my server by navigating my browser to princess260.click, simon.princess260.click, or startup.princess260.click.
