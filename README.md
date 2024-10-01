@@ -44,7 +44,7 @@ Uses correct HTML structure for application. Three HTML pages. One for login, on
 ## CSS
 Application styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.  
    For this deliverable I properly styled the application into its final appearance.  
-   - [ ] Header, footer, and main content body.  
+   - [ ] **Header, footer, and main content body.**  
    - [ ] **Navigation elements** - I dropped the underlines and changed the color for anchor elements.  
    - [ ] **Responsive to window resizing** - My app looks great on all window sizes and devices.  
    - [ ] **Application elements** - Used good contrast and whitespace.  
@@ -69,7 +69,7 @@ Backend service with endpoints for:
 
 For this deliverable I will add backend endpoints that receives scores and returns the results.  
 - [ ] **Backend service endpoints** - Placeholders for login that stores the current user on the server. Endpoints for results.  
-- [ ] Calls to third party endpoints
+- [ ] **Calls to third party endpoints**
   
 ## DB/Login
 Store users, user's choices, and results in database. Register and login users. Credentials securely stored in database. Can't take quiz unless authenticated.  
@@ -82,7 +82,7 @@ Store users, user's choices, and results in database. Register and login users. 
 ## WebSocket
 As each user takes the quiz, their results are broadcast to all other users.  
    For this deliverable I used webSocket to update the results on the frontend in realtime.  
-   - [ ] Backend listens for WebSocket connection.  
-   - [ ] Frontend makes WebSocket connection.  
-   - [ ] Data sent over WebSocket connection.  
+   - [ ] **Backend listens for WebSocket connection.**  
+   - [ ] **Frontend makes WebSocket connection.**  
+   - [ ] **Data sent over WebSocket connection.**  
    - [ ] **WebSocket data displayed** - Recent user results display in realtime.  
