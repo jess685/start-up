@@ -33,12 +33,12 @@ I am going to use the required technologies in the following ways.
 
 ## HTML
 Uses correct HTML structure for application. Three HTML pages. One for login, one for the quiz, and one for results.   
-   - [x] HTML pages - Three HTML page that represent the ability to login, take the quiz, and view results as well as other user's results.  
-   ☑ Links - The login page automatically links to the quiz page which in turn links to the results page.   
-   ☑ Text - Each of the choices for the questions and results is represented by a textual description.   
-   ☑ Images - An image of each princess will be linked to the result of the quiz.   
-   ☑ DB/Login - Input box and submit button for login. The quiz results represent data pulled from the database.   
-   ☑ WebSocket - The quiz results are represented to other users.   
+   - [x] **HTML pages** - Three HTML page that represent the ability to login, take the quiz, and view results as well as other user's results.  
+   - [x] **Links** - The login page automatically links to the quiz page which in turn links to the results page.   
+   - [x] **Text** - Each of the choices for the questions and results is represented by a textual description.   
+   - [x] **Images** - An image of each princess will be linked to the result of the quiz.   
+   - [x] **DB/Login** - Input box and submit button for login. The quiz results represent data pulled from the database.   
+   - [x] **WebSocket** - The quiz results are represented to other users.   
    I deployed the Simon HTML to my production environment (onto the link https://simon.princess260.click). I created three different folders containing the index.html, quiz.html, and results.html on VS Code. To view the live updates I made to my html I used the Live Server VS Code extension so I could open them on another tab. The final html application is now available from my production environment and I can open the website https://startup.princess260.click to see the index.html and the other two html pages by clicking on the links quiz.html and results.html. I additionally linked my GitHub startup repository to display on my application's home page.
    
 ## CSS
