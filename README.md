@@ -23,13 +23,13 @@ Results as following
 
 ### Technologies
 I am going to use the required technologies in the following ways.   
-- HTML - Uses correct HTML structure for application. Three HTML pages. One for login, one for the quiz, and one for results.   
-- CSS - Application styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.  
-- JavaScript - Provides login, calculating princess match scores, backend endpoint calls.  
-- React - Provides login form, question and choice display, display other users results.  
-- Service - Backend service supports the following: login, retrieving choices, submitting scores, retrieving results   
-- DB/Login - Store users, user's choices, and results in database. Register and login users. Credentials securely stored in database. Can't take quiz unless authenticated.  
-- WebSocket - As each user takes the quiz, their results are broadcast to all other users.   
+- **HTML** - Uses correct HTML structure for application. Three HTML pages. One for login, one for the quiz, and one for results.   
+- **CSS** - Application styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.  
+- **JavaScript** - Provides login, calculating princess match scores, backend endpoint calls.  
+- **React** - Provides login form, question and choice display, display other users results.  
+- **Service** - Backend service supports the following: login, retrieving choices, submitting scores, retrieving results   
+- **DB/Login** - Store users, user's choices, and results in database. Register and login users. Credentials securely stored in database. Can't take quiz unless authenticated.  
+- **WebSocket** - As each user takes the quiz, their results are broadcast to all other users.   
 
 ## HTML
 Uses correct HTML structure for application. Three HTML pages. One for login, one for the quiz, and one for results.   
@@ -45,20 +45,20 @@ Uses correct HTML structure for application. Three HTML pages. One for login, on
 Application styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.  
    For this deliverable I properly styled the application into its final appearance.  
    - [ ] Header, footer, and main content body.  
-   - [ ] Navigation elements - I dropped the underlines and changed the color for anchor elements.  
-   - [ ] Responsive to window resizing - My app looks great on all window sizes and devices.  
-   - [ ] Application elements - Used good contrast and whitespace.  
-   - [ ] Application text content - Consistent fonts.  
-   - [ ] Application images - Images are linked to results.   
+   - [ ] **Navigation elements** - I dropped the underlines and changed the color for anchor elements.  
+   - [ ] **Responsive to window resizing** - My app looks great on all window sizes and devices.  
+   - [ ] **Application elements** - Used good contrast and whitespace.  
+   - [ ] **Application text content** - Consistent fonts.  
+   - [ ] **Application images** - Images are linked to results.   
    
 ## React
 Provides login, question and choice display, calculating princess match scores, display other users results, backend endpoint calls.  
    For this deliverable I will use JavaScript and React so that the application completely works for a single user.   
-   - [ ] Components - Login and calculating similarity scores.  
-   - [ ] Login - When you press enter or the login button it takes you to the quiz page.   
-   - [ ] Database - Displayed the questions, choice, results, and other user's results.  
-   - [ ] Application logic - The results will be calculated by the similarity between the user's score with the princesses scores.  
-   - [ ] Router - Routing between login and quiz components.  
+   - [ ] **Components** - Login and calculating similarity scores.  
+   - [ ] **Login** - When you press enter or the login button it takes you to the quiz page.   
+   - [ ] **Database** - Displayed the questions, choice, results, and other user's results.  
+   - [ ] **Application logic** - The results will be calculated by the similarity between the user's score with the princesses scores.  
+   - [ ] **Router** - Routing between login and quiz components.  
 
 ## Service
 Backend service with endpoints for:
@@ -68,16 +68,16 @@ Backend service with endpoints for:
 - retrieving results  
 
 For this deliverable I will add backend endpoints that receives scores and returns the results.  
-- [ ] Backend service endpoints - Placeholders for login that stores the current user on the server. Endpoints for results.  
+- [ ] **Backend service endpoints** - Placeholders for login that stores the current user on the server. Endpoints for results.  
 - [ ] Calls to third party endpoints
   
 ## DB/Login
 Store users, user's choices, and results in database. Register and login users. Credentials securely stored in database. Can't take quiz unless authenticated.  
    For this deliverable I associate the results with the logged in user. I stored the results in the database.  
-   - [ ] User registration - Creates a new account in the database.  
-   - [ ] Existing user - Stores the results under the same user if the user already exists.  
-   - [ ] Use MongoDB to store credentials - Stores both user and their results.  
-   - [ ] Restricts functionality - You cannot take the quiz until you have logged in.   
+   - [ ] **User registration** - Creates a new account in the database.  
+   - [ ] **Existing user** - Stores the results under the same user if the user already exists.  
+   - [ ] **Use MongoDB to store credentials** - Stores both user and their results.  
+   - [ ] **Restricts functionality** - You cannot take the quiz until you have logged in.   
    
 ## WebSocket
 As each user takes the quiz, their results are broadcast to all other users.  
@@ -85,4 +85,4 @@ As each user takes the quiz, their results are broadcast to all other users.
    - [ ] Backend listens for WebSocket connection.  
    - [ ] Frontend makes WebSocket connection.  
    - [ ] Data sent over WebSocket connection.  
-   - [ ] WebSocket data displayed - Recent user results display in realtime.  
+   - [ ] **WebSocket data displayed** - Recent user results display in realtime.  
