@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 375px;
+    background-color: #5e4b8a;
+    color: #ffffff;
+  }
+  
+header {
+    flex: 0 80px;
+    background-color: #150d29;
+  }
+  
+  main {
+    flex: 1 calc(100vh - 110px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #6e5074;
+    font-family: 'Courier New', monospace;
+  }
+
+  h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5em !important;
+  }
+  
+  footer {
+    flex: 0 30px;
+    background-color: #150d29;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  form {
+    width: 45vw;
+    margin: 1em;
+  }
+  
+  menu {
+    flex: 1;
+    display: flex;
+    /*  overwrite Bootstrap so the menu does not wrap */
+    flex-direction: row !important;
+    list-style: none;
+  }
+  
+  .navbar-brand {
+    padding-left: 0.3em;
+    border-bottom: solid rgb(245, 232, 248) thin;
+  }
+  
+  menu .nav-item {
+    padding: 0 0.3em;
+  }
+  
+  footer a {
+    float: right;
+  }
+  
+  @media (max-height: 600px) {
+    header {
+      display: none;
+    }
+    footer {
+      display: none;
+    }
+    main {
+      flex: 1 100vh;
+    }
+  }
+  

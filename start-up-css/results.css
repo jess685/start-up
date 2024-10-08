@@ -1,0 +1,33 @@
+.image {
+    width: 45vw;
+    margin: 1.6em;
+}
+
+.h2 {
+    font-family: 'Afacad Flux', sans-serif;
+    font-weight: bold;
+    font-size: 5em;
+}
+
+.result {
+    font-size: 1.2em;
+    font-family: 'Afacad Flux', sans-serif;
+}
+
+td {
+    max-width: 40vw;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: #281f40;
+  }
+
+ table {
+    background-color: #281f40;
+    color: white;
+    max-width: 35vw;
+  }
+
+.tbody {
+    background-color: #eac5e9 !important;
+}
