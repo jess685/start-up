@@ -23,7 +23,7 @@ Results as following
 
 ### Technologies
 I am going to use the required technologies in the following ways.   
-- **HTML** - Uses correct HTML structure for application. Three HTML pages. One for login, one for the quiz, and one for results.   
+- **HTML** - Uses correct HTML structure for application. Four HTML pages. One for login, one for the quiz, one for results, and one for other user's results.     
 - **CSS** - Application styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.  
 - **JavaScript** - Provides login, calculating princess match scores, backend endpoint calls.  
 - **React** - Provides login form, question and choice display, display other users results.  
