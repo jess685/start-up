@@ -2,14 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- Tell browsers not to scale the viewport automatically -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Princess Quiz</title>
+    <title>Results</title>
     <link rel="icon" href="favicon.ico" />
 
     <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="quiz.css" />
-
+    <link rel="stylesheet" href="others.css" />
     <link href="https://fonts.googleapis.com/css?family=Afacad Flux" rel="stylesheet">
 
     <!-- Include bootstrap CSS framework -->
@@ -18,7 +16,6 @@
       rel="stylesheet"
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
-    
     />
   </head>
   <body class="bg-dark text-light">
@@ -30,43 +27,53 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="quiz.html">Quiz</a>
+            <a class="nav-link" href="quiz.html">Quiz</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="results.html">Results</a>
           </li>
           <li class="nav-item"></li>
-            <a class="nav-link" href="others.html">Others</a>
+            <a class="nav-link active" href="others.html">Others</a>
           </li>
         </menu>
       </nav>
     </header>
 
-    <main class="text-center">
-        <div>
-            <label class="question" for="question">What is my biggest fear?</label>
-        </div>
-        <form method="get" action="results.html">
-          <div class="button-container">
-              <button class="box">Losing my family</button>
-              <button class="box">Dishonoring my parents</button>
-              <button class="box">Standing still</button>
-              <button class="box">Men with pointy teeth</button>
-              <button class="box">Global warming</button>
-              <button class="box">Getting rid of things</button>
-          </div>
-        </form>
-        <div>
-            <label class="number">10 of 10 questions</label>
-        </div>
+    <main class="container-fluid text-center">
+      <table class="table table-warning table-striped-columns">
+        <thead class="table text-white">
+          <tr>
+            <th>Name</th>
+            <th class="text-white">Score</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody class="tbody">
+          <tr>
+            <td>frog_kisses24</td>
+            <td>Tiana</td>
+            <td>May 20, 2021</td>
+          </tr>
+          <tr>
+            <td>mommy_knows_best</td>
+            <td>Rapunzel</td>
+            <td>June 2, 2021</td>
+          </tr>
+          <tr>
+            <td>shang_lover</td>
+            <td>Mulan</td>
+            <td>July 3, 2020</td>
+          </tr>
+        </tbody>
+      </table>
     </main>
-        
 
     <footer class="text-white-50">
-      <div class="container-fluid">
-        <span class="text-reset">Jessica Roundy</span>
-        <a class="text-reset" href="https://github.com/jess685/start-up">Source</a>
-      </div>
-    </footer>
-  </body>
-</html>
+        <div class="container-fluid">
+          <span class="text-reset">Jessica Roundy</span>
+          <a class="text-reset" href="https://github.com/jess685/start-up">Source</a>
+        </div>
+      </footer>
+    </body>
+  </html>
+  

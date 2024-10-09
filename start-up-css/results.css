@@ -1,33 +1,19 @@
 .image {
     width: 45vw;
-    margin: 1.6em;
+    margin-top: 5em;
+    margin-bottom: 2em;
 }
 
 .h2 {
     font-family: 'Afacad Flux', sans-serif;
     font-weight: bold;
-    font-size: 5em;
+    font-size: 4.8em;
+    margin-bottom: 0.5em;
 }
 
 .result {
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-family: 'Afacad Flux', sans-serif;
-}
-
-td {
-    max-width: 40vw;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    background-color: #281f40;
-  }
-
- table {
-    background-color: #281f40;
-    color: white;
-    max-width: 35vw;
-  }
-
-.tbody {
-    background-color: #eac5e9 !important;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
 }

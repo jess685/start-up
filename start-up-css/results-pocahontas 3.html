@@ -2,14 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- Tell browsers not to scale the viewport automatically -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Princess Quiz</title>
+    <title>Results</title>
     <link rel="icon" href="favicon.ico" />
 
     <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="quiz.css" />
-
+    <link rel="stylesheet" href="results.css" />
     <link href="https://fonts.googleapis.com/css?family=Afacad Flux" rel="stylesheet">
 
     <!-- Include bootstrap CSS framework -->
@@ -18,7 +16,6 @@
       rel="stylesheet"
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
-    
     />
   </head>
   <body class="bg-dark text-light">
@@ -30,10 +27,10 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="quiz.html">Quiz</a>
+            <a class="nav-link" href="quiz.html">Quiz</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="results.html">Results</a>
+            <a class="nav-link active" href="results.html">Results</a>
           </li>
           <li class="nav-item"></li>
             <a class="nav-link" href="others.html">Others</a>
@@ -42,31 +39,21 @@
       </nav>
     </header>
 
-    <main class="text-center">
-        <div>
-            <label class="question" for="question">What is my biggest fear?</label>
-        </div>
-        <form method="get" action="results.html">
-          <div class="button-container">
-              <button class="box">Losing my family</button>
-              <button class="box">Dishonoring my parents</button>
-              <button class="box">Standing still</button>
-              <button class="box">Men with pointy teeth</button>
-              <button class="box">Global warming</button>
-              <button class="box">Getting rid of things</button>
-          </div>
-        </form>
-        <div>
-            <label class="number">10 of 10 questions</label>
-        </div>
+    <main class="container-fluid text-center">
+        <img class="image" src="https://i.namu.wiki/i/uwkFiVrl6fWBpJkf1wDZ9e2iEVCJEFp_jiM6zL2LUNY8d92rfarMrX1x5x-6Y3YulAFIXYjE5V7AKlsyolNwqg.webp" />
+        <h2 class="h2"> <b style="font-family: 'Afacad Flux', sans-serif; font-size: 1.25em;">You're Pocahontas!</b></h2>
+        <label class="result">You’re courageous and open-minded, with an inner strength that’s steady as <br>
+          the beating drum. Wherever your compass leads you, you’ll be ready for <br>
+          the adventure.</label>
+        <hr />
     </main>
-        
 
     <footer class="text-white-50">
-      <div class="container-fluid">
-        <span class="text-reset">Jessica Roundy</span>
-        <a class="text-reset" href="https://github.com/jess685/start-up">Source</a>
-      </div>
-    </footer>
-  </body>
-</html>
+        <div class="container-fluid">
+          <span class="text-reset">Jessica Roundy</span>
+          <a class="text-reset" href="https://github.com/jess685/start-up">Source</a>
+        </div>
+      </footer>
+    </body>
+  </html>
+  

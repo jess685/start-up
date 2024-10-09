@@ -1,0 +1,27 @@
+td {
+    max-width: 50vw;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: #281f40;
+  }
+
+td {
+    max-width: 40vw;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: #281f40;
+  }
+
+ table {
+    background-color: #281f40;
+    color: white;
+    max-width: 80vw;
+  }
+
+.tbody {
+    background-color: #eac5e9 !important;
+}
+
+ 
