@@ -46,3 +46,6 @@ To start I deployed the Simon HTML to my production environment (onto the link h
 To deploy I had to cd into the cs260 folder I had and then cd into the start-up folder within that. To deploy my startup application to my production environment I used the following script: ./deployFiles.sh -k ~/downloads/cs260.pem -h princess260.click -s startup   
 
 I used VS Code to clone the Simon HTML and change the script to fit my version. I created three different folders containing the index.html, quiz.html, and results.html. To view the live updates I made to my html I used the Live Server VS Code extension so I could open them on another tab. The final html application is now available from my production environment and I can open the website https://startup.princess260.click to see the index.html and the other two html pages by clicking on the links. I additionally linked my GitHub startup repository to display on my application's home page. 
+
+### Start-up CSS
+I created a new html page **others** to split the results of the quiz and other users results. I also linked all 10 questions of the quiz to the quiz html that automatically links to the results page after the 10th question
