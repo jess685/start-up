@@ -23,7 +23,7 @@ Results as following
 
 ### Technologies
 I am going to use the required technologies in the following ways.   
-- **HTML** - Uses correct HTML structure for application. Three HTML pages. One for login, one for the quiz, and one for results.   
+- **HTML** - Uses correct HTML structure for application. Four HTML pages. One for login, one for the quiz, one for results, and one for other user's results.     
 - **CSS** - Application styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.  
 - **JavaScript** - Provides login, calculating princess match scores, backend endpoint calls.  
 - **React** - Provides login form, question and choice display, display other users results.  
@@ -32,8 +32,8 @@ I am going to use the required technologies in the following ways.
 - **WebSocket** - As each user takes the quiz, their results are broadcast to all other users.   
 
 ## HTML
-Uses correct HTML structure for application. Three HTML pages. One for login, one for the quiz, and one for results.   
-   - [x] **HTML pages** - Three HTML page that represent the ability to login, take the quiz, and view results as well as other user's results.  
+Uses correct HTML structure for application. Four HTML pages. One for login, one for the quiz, one for results, and one for other user's results.   
+   - [x] **HTML pages** - Four HTML page that represent the ability to login, take the quiz, and view results as well as other user's results.  
    - [x] **Links** - The login page automatically links to the quiz page which in turn links to the results page.   
    - [x] **Text** - Each of the choices for the questions and results is represented by a textual description.   
    - [x] **Images** - An image of each princess will be linked to the result of the quiz.   
