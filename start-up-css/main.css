@@ -21,9 +21,26 @@ header {
     font-family: 'Courier New', monospace;
   }
 
+  /* .image-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    flex-direction: column; 
+}
+
+.image {
+    max-width: 45vw;
+    max-height: 80vh;
+    min-width: 30vh;
+    height: auto;
+    margin-top:1em;
+    margin-bottom: 0em;
+} */
+
   h1 {
     font-family: 'Pacifico', cursive;
     font-size: 3.5em !important;
+    color: #ffe7fa;
   }
   
   footer {
@@ -74,4 +91,53 @@ header {
       flex: 1 100vh;
     }
   }
+
+  input[type="text"], 
+  input[type="password"] {
+      background-color: #ffe7fa; /* Change to your desired background color */
+      color: #000000; /* Text color inside the input field */
+      border: 1px solid #ccc; /* Optional: border color */
+      border-radius: 5px; /* Optional: border radius */
+      padding: 0.5em; /* Optional: padding for better spacing */
+  }
+  
+  /* Change placeholder color for input fields */
+  input::placeholder {
+      color: #b3b3b3; /* Placeholder text color */
+      opacity: 1; /* Ensures full opacity */
+  }
+  
+  /* Specific input type styling for placeholder */
+  input[type="text"]::placeholder,
+  input[type="password"]::placeholder {
+      color: #080106; /* Example: Placeholder color */
+  }
+
+  .input-group-text {
+    background-color:#d8bfd2 !important; /* Change to your desired background color */
+    color: #000000 !important; /* Change the icon color if needed */
+    border: none !important; /* Optional: remove border */
+    border-radius: 5px 0 0 5px; /* Rounded corners for the left side */
+}
+
+.btn-primary {
+  background-color: #5b1774 !important; /* Change to your desired background color */
+  border-color: #5b1774 !important; /* Match border color */
+}
+
+/* Override Bootstrap secondary button */
+.btn-secondary {
+  background-color: #b394ab !important; /* Change to your desired background color */
+  border-color: #ae92a7 !important; /* Match border color */
+}
+
+/* Optional: Change hover effects */
+.btn-primary:hover {
+  background-color: #270b31 !important; /* Darker shade for hover */
+}
+
+.btn-secondary:hover {
+  background-color: #957190 !important; /* Darker shade for hover */
+}
+  
   
