@@ -34,13 +34,14 @@ header {
     min-width: 45vh;
     border-radius: 5px;
     margin-top:1.5em;
-    margin-bottom: 1em;
+    margin-bottom: 0.4em;
 }
 
   h1 {
     font-family: 'Pacifico', cursive;
-    font-size: clamp(2.5em, 4vw, 4em) !important;
+    font-size: clamp(2.5em, 3.8vw, 4em) !important;
     color: #ffe7fa;
+
   }
 
   @media (max-height: 600px) {
