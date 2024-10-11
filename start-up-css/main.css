@@ -21,7 +21,7 @@ header {
     font-family: 'Courier New', monospace;
   }
 
-  /* .image-container {
+.image-container {
     display: flex;
     justify-content: center; 
     align-items: center;    
@@ -31,16 +31,22 @@ header {
 .image {
     max-width: 45vw;
     max-height: 80vh;
-    min-width: 30vh;
-    height: auto;
-    margin-top:1em;
-    margin-bottom: 0em;
-} */
+    min-width: 45vh;
+    border-radius: 5px;
+    margin-top:1.5em;
+    margin-bottom: 1em;
+}
 
   h1 {
     font-family: 'Pacifico', cursive;
-    font-size: 3.5em !important;
+    font-size: clamp(2.5em, 4vw, 4em) !important;
     color: #ffe7fa;
+  }
+
+  @media (max-height: 600px) {
+    h1 {
+      font-size: 2em !important; /* Slightly smaller font size */
+    }
   }
   
   footer {
@@ -55,7 +61,8 @@ header {
   }
 
   form {
-    width: 45vw;
+    max-width: 45vw;
+    min-width: 45vw;
     margin: 1em;
   }
   
