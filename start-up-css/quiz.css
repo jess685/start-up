@@ -3,8 +3,8 @@
     font-family: 'Afacad Flux', sans-serif;
     font-size: 2em !important;
     font-weight: bold;
-    margin-top: 2.5em;
-    margin-bottom: 1em;
+    margin-top: 2em;
+    margin-bottom: 0em;
 }
 
 .button-container {
@@ -15,7 +15,7 @@
     justify-items: center; 
     align-items: center; 
     font-size: 1.3em !important;
-    margin-bottom: 2em;
+    margin-bottom: 0;
 }
 
 .box {
@@ -25,7 +25,7 @@
     aspect-ratio: 3/2;
     /* max-height: 200px; 
     min-height: 130px; */
-    background-color: rgba(255, 255, 255, 0.1); 
+    background-color: rgba(247, 183, 246, 0.187); 
     border: 2px solid rgba(255, 255, 255, 0.5); 
     display: flex;
     flex-direction: column;
@@ -36,6 +36,8 @@
     cursor: pointer; 
     outline: none; 
 }
+
+/* rgba(255, 255, 255, 0.1) */
 
 @media (max-width: 600px) {
     .button-container {
@@ -51,9 +53,12 @@
 }
 
 .box:hover {
-    background-color: rgba(255, 255, 255, 0.2); /* Slightly change background on hover */
+    background-color: rgba(194, 108, 191, 0.2); /* Slightly change background on hover */
+    border: 2px solid rgba(232, 160, 230, 0.2); 
+    color: #fce1f6;
 }
 
 .number {
     font-size: 1.2em !important;
+    color: #ffe7fa;
 }

@@ -19,6 +19,7 @@
     font-weight: bold;
     font-size: 4.8em;
     margin-bottom: 0.5em;
+    color: #ffe7fa;
 }
 
 .result {
@@ -26,4 +27,6 @@
     font-family: 'Afacad Flux', sans-serif;
     margin-top: 0.2em;
     margin-bottom: 1em;
+    color: #ffe7fa;
+    
 }
