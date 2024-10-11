@@ -7,32 +7,24 @@
     margin-bottom: 1em;
 }
 
-main {
-    flex: 1 calc(100vh - 110px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: #6e5074;
-    font-family: 'Courier New', monospace;
-  }
-
 .button-container {
     display: grid;
     justify-content: center; 
-    grid-template-columns: repeat(3, 1fr); /* Three columns for six buttons */
-    gap: 20px; /* Space between buttons */
-    justify-items: center; /* Center items horizontally within the grid */
-    align-items: center; /* Center items vertically within the grid */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    justify-items: center; 
+    align-items: center; 
     font-size: 1.3em !important;
     margin-bottom: 2em;
-
 }
 
 .box {
-    flex: 1 1 300px;
-    width: 300px;
-    height: 200px; 
+    flex: 1 1 40%;
+    max-width: 500px;
+    min-width: 300px;
+    aspect-ratio: 3/2;
+    /* max-height: 200px; 
+    min-height: 130px; */
     background-color: rgba(255, 255, 255, 0.1); 
     border: 2px solid rgba(255, 255, 255, 0.5); 
     display: flex;
@@ -41,8 +33,21 @@ main {
     justify-content: center; 
     color: white; 
     border-radius: 10px; 
-    cursor: pointer; /* Change cursor to pointer on hover */
-    outline: none; /* Remove outline */
+    cursor: pointer; 
+    outline: none; 
+}
+
+@media (max-width: 600px) {
+    .button-container {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px; 
+    }
+    .box {
+        flex: 1 1 50%;
+        max-width: 150px;
+        min-width: 150px;
+        font-size: 0.7em;
+    }
 }
 
 .box:hover {
