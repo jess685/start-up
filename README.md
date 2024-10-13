@@ -44,13 +44,13 @@ I deployed the Simon HTML to my production environment (onto the link https://si
    
 ## CSS
 Application styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.  
-   For this deliverable I properly styled the application into its final appearance.  
-   - [ ] **Header, footer, and main content body.**  
-   - [ ] **Navigation elements** - I dropped the underlines and changed the color for anchor elements.  
-   - [ ] **Responsive to window resizing** - My app looks great on all window sizes and devices.  
-   - [ ] **Application elements** - Used good contrast and whitespace.  
-   - [ ] **Application text content** - Consistent fonts.  
-   - [ ] **Application images** - Images are linked to results.   
+   For this deliverable I properly styled the application into its final appearance. I changed colors to my preference that were consistent and had good contrast and added images    to my main page as well as the results.
+   - [x] **Header, footer, and main content body.**  
+   - [x] **Navigation elements** - I changed the color for anchor elements.  
+   - [x] **Responsive to window resizing** - My app looks great on all window sizes and devices.  
+   - [x] **Application elements** - Used good contrast and sufficient whitespace.  
+   - [x] **Application text content** - Consistently used two fonts and colors.  
+   - [x] **Application images** - Images are linked to results.    
    
 ## React
 Provides login, question and choice display, calculating princess match scores, display other users results, backend endpoint calls.  
