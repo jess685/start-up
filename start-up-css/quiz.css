@@ -7,10 +7,16 @@
     margin-bottom: 0em;
 }
 
+@media (max-width: 600px) {
+    .question {
+        margin-top: 1em;
+    }
+}
+
 .button-container {
     display: grid;
     justify-content: center; 
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(4, 1fr); 
     gap: 20px; 
     justify-items: center; 
     align-items: center; 
@@ -20,9 +26,9 @@
 
 .box {
     flex: 1 1 40%;
-    max-width: 500px;
-    min-width: 300px;
-    aspect-ratio: 3/2;
+    max-width: 250px;
+    min-width: 220px;
+    aspect-ratio: 19/20;
     /* max-height: 200px; 
     min-height: 130px; */
     background-color: rgba(247, 183, 246, 0.187); 
@@ -48,7 +54,8 @@
         flex: 1 1 50%;
         max-width: 150px;
         min-width: 150px;
-        font-size: 0.7em;
+        aspect-ratio: 3/2;
+        font-size: 0.8em;
     }
 }
 
@@ -61,4 +68,10 @@
 .number {
     font-size: 1.2em !important;
     color: #ffe7fa;
+}
+
+@media (max-width: 600px) {
+    .number {
+        margin: 1em;
+}
 }

@@ -7,11 +7,16 @@
 
 .image {
     max-width: 47vw;
-    max-height: 80vh;
-    min-width: 40vh;
+    min-width: 46vh;
     height: auto;
     margin-top: 5em;
     margin-bottom: 2em;
+}
+
+@media (max-width: 600px) {
+    .image {
+        min-width: 47vh;;
+    }
 }
 
 .h2 {
