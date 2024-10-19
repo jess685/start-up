@@ -59,12 +59,12 @@ html
 <link rel="stylesheet" href="styles.css">
 This tells the browser to load and apply the styles.css file to the HTML page. <br/> 
 2. In the following code,  what does a div tag do?  
-The <div> element is a block-level container that is used to group other HTML elements. It doesn’t have any specific styling or semantic meaning by default but is often used with classes or IDs to style or organize sections of a page:
+The div element is a block-level container that is used to group other HTML elements. It doesn’t have any specific styling or semantic meaning by default but is often used with classes or IDs to style or organize sections of a page:
 html
 <div class="container">
   <p>This is some content inside a div.</p>
 </div>  
-3. In the following code, what is the difference between the #title and .grid selector?  
+<br/> 3. In the following code, what is the difference between the #title and .grid selector?  
 In CSS, #title is an ID selector, meaning it targets an element with the id attribute set to "title":
 css
 #title {
