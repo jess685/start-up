@@ -57,7 +57,7 @@ CS260 Midterm Topics/Questions Review
 The <link> element in HTML is used to link external resources to a document, typically stylesheets. It is commonly placed within the <head> section and is used to link to CSS files like this:
 html
 <link rel="stylesheet" href="styles.css">
-This tells the browser to load and apply the styles.css file to the HTML page.  
+This tells the browser to load and apply the styles.css file to the HTML page.   
 2. In the following code,  what does a div tag do?  
 The <div> element is a block-level container that is used to group other HTML elements. It doesn’t have any specific styling or semantic meaning by default but is often used with classes or IDs to style or organize sections of a page:
 html
