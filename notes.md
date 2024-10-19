@@ -137,12 +137,12 @@ a for loop will iterate over a range or array, and console.log outputs each iter
 18. How would you use JavaScript to select an element with the id of “byu” and change the text color of that element to green?  
 document.getElementById("byu").style.color = "green";
 19. What is the opening HTML tag for a paragraph, ordered list, unordered list, second level heading, first level heading, third level heading?   
-Paragraph: <p>
-Ordered List: <ol>
-Unordered List: <ul>
-Second Level Heading: <h2>
-First Level Heading: <h1>
-Third Level Heading: <h3>
+Paragraph: p
+Ordered List: ol
+Unordered List: ul
+Second Level Heading: h2
+First Level Heading: h1
+Third Level Heading: h3
 20. How do you declare the document type to be html?  
 	<!DOCTYPE html>
 21. What is valid javascript syntax for if, else, for, while, switch statements?  
