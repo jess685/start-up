@@ -57,13 +57,13 @@ CS260 Midterm Topics/Questions Review
 The <link> element in HTML is used to link external resources to a document, typically stylesheets. It is commonly placed within the <head> section and is used to link to CSS files like this:
 html
 <link rel="stylesheet" href="styles.css">
-This tells the browser to load and apply the styles.css file to the HTML page.
+This tells the browser to load and apply the styles.css file to the HTML page.  
 2. In the following code,  what does a div tag do?  
 The <div> element is a block-level container that is used to group other HTML elements. It doesn’t have any specific styling or semantic meaning by default but is often used with classes or IDs to style or organize sections of a page:
 html
 <div class="container">
   <p>This is some content inside a div.</p>
-</div>
+</div>  
 3. In the following code, what is the difference between the #title and .grid selector?  
 In CSS, #title is an ID selector, meaning it targets an element with the id attribute set to "title":
 css
@@ -75,7 +75,7 @@ css
 .grid {
   display: grid;
 }
-IDs should be unique to a single element on a page, whereas classes can be applied to multiple elements.
+IDs should be unique to a single element on a page, whereas classes can be applied to multiple elements.  
 4. In the following code, what is the difference between padding and margin?  
 padding is the space between the content of an element and its border, essentially the "inner" space.
 margin is the space outside the element’s border, creating "outer" space between the element and other elements.
