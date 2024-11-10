@@ -55,11 +55,11 @@ Application styling that looks good on different screen sizes, uses good whitesp
 ## React
 Provides login, question and choice display, calculating princess match scores, display other users results, backend endpoint calls.  
    For this deliverable I will use JavaScript and React so that the application completely works for a single user.   
-   - [ ] **Components** - Login and calculating similarity scores.  
-   - [ ] **Login** - When you press enter or the login button it takes you to the quiz page.   
-   - [ ] **Database** - Displayed the questions, choice, results, and other user's results.  
-   - [ ] **Application logic** - The results will be calculated by the similarity between the user's score with the princesses scores.  
-   - [ ] **Router** - Routing between login and quiz components.  
+   - [x] **Components** - Login and calculating similarity scores.  
+   - [x] **Login** - When you press enter or the login button it takes you to the quiz page.   
+   - [x] **Database** - Displayed the questions, choice, results, and other user's results.  
+   - [x] **Application logic** - The results will be calculated by the similarity between the user's score with the princesses scores.  
+   - [x] **Router** - Routing between login and quiz components.  
 
 ## Service
 Backend service with endpoints for:
