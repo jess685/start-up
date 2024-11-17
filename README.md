@@ -69,8 +69,8 @@ Backend service with endpoints for:
 - retrieving results  
 
 For this deliverable I will add backend endpoints that receives scores and returns the results.  
-- [ ] **Backend service endpoints** - Placeholders for login that stores the current user on the server. Endpoints for results.  
-- [ ] **Calls to third party endpoints**
+- [x] **Backend service endpoints** - Placeholders for login that stores the current user on the server. Endpoints for results.  
+- [x] **Calls to third party endpoints**
   
 ## DB/Login
 Store users, user's choices, and results in database. Register and login users. Credentials securely stored in database. Can't take quiz unless authenticated.  
